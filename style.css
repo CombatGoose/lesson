@@ -1,0 +1,161 @@
+body {
+   background-image: url(./img/david-marcu-78A265wPiO4-unsplash\ 1.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   display: flex;
+    justify-content: flex-end;
+}
+button {
+    cursor:pointer;
+}
+.container {
+    width: 496px;
+    height: 760px;
+    left: 743px;
+    top: 0px;
+
+    background: rgba(233, 233, 233, 0.25);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+}
+.main {
+    width: 340px;
+    height: 760px;
+}
+.btns {
+    margin-top: 26px;
+    display: flex;
+    width: 100%;
+    height: 36px;
+    border: 1px solid #153416;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.btns > button {
+    width: 50%;
+    height: 32px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #FFFFFF;
+}
+.btnNo {
+    margin-left: 20px;
+    background: none;
+}
+.btnActive {
+    background-color: #153416;
+    margin-left: 2px;
+}
+.auth {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-bottom: 29px;
+}
+.input {
+    width: 318px;
+    height: 44px;
+    display: block;
+    border-radius: 30px;
+    background: #929191;
+    border: none;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.input::placeholder {
+    color: white;
+}
+.block {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.block > a {
+    text-decoration: none;
+    color: #153416;
+}
+label {
+    color: white;
+}
+.signInBtn {
+    width: 340px;
+    height: 44px;
+    background: #153416;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+.account {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.account > a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.account > p {
+    color: #153416;
+}
+.sign {
+    color: #153416;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.svg {
+    display: flex;
+    justify-content: center;
+}
+.social {
+    width: 24px;
+    height: 24px;
+}
+.l {
+    margin-left: 20px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        justify-content: center;
+        }
+        a {
+            color: black;
+        }
+      label {
+        color: black;
+      }
+      .btns {
+        width: 70%;
+       margin-left: 60px;
+      }
+      .btns > button {
+        width: 70%;
+      }
+      .input {
+        width: 80%;
+        margin-left: 30px;
+      }
+      .signInBtn {
+        width: 90%;
+        margin-left: 26.5px;
+      }
+}
+@media (min-width: 481px) and (max-width: 1113px) {
+    body {
+        justify-content: center;
+    }
+}
